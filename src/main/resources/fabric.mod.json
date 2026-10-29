@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "yots-ball",
+  "version": "0.2.0",
+  "name": "YOTS Ball",
+  "description": "A SkyHanni addon for the Year of the Seal beach ball: walks you to where SkyHanni says your ball lands, with the movement keys only, camera straight down.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["yotsball.YotsBall"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "skyhanni": ">=9.3.0"
+  }
+}
